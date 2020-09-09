@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    {% for choice in choices_list %}
+        <li>{{choice.choice_text}}</li>
+    {% endfor %}
+{% endblock content %}
